@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos base*/
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
 }
 
 header .container {
@@ -35,4 +37,53 @@ header nav a {
 
 header nav a:hover {
     color: #FFF;
+}
+
+/*Banner Principal*/
+.banner-principal {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(../images/capa-house.jpg);
+    background-size: cover;
+
+    font-size: 16px;
+    height: 400px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+
+}
+
+.banner-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.banner-principal .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
 }
