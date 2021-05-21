@@ -1,0 +1,17 @@
+@media screen and (max-width:500px) {
+    header .logo {
+        color: var(--vermelho);
+        font-family: 'Arial Black';
+        margin: 15px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .banner-principal {
+        height: 500px;
+    }
+    .banner-principal .container {
+        width: 50%;
+    }
+}
